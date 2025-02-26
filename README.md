@@ -43,34 +43,46 @@ Por favor, asegúrate de seguir todos los pasos y de que tu Pull Request esté l
 ## Preguntas
 
 1. ¿Qué es Selenium y para qué se utiliza?
-    - Respuesta:
+    - Respuesta: Selenium es una herramienta para la automatización de navegadores web. Se utiliza para realizar 
+                  pruebas automatizadas de aplicaciones web.
 
 2. ¿Cómo se configura Selenium WebDriver con Java?
-    - Respuesta:
+    - Respuesta: Se configura agregando las dependencias de Selenium en el archivo `pom.xml` o `build.gradle`,
+                  y luego inicializando el `WebDriver` en el código Java.
+
 
 3. ¿Cuáles son los diferentes tipos de localizadores en Selenium?
-    - Respuesta:
+    - Respuesta: Los tipos de localizadores en Selenium son: `id`, `name`, `className`, `tagName`, `linkText`, 
+                  `partialLinkText`, `cssSelector`, y `xpath`.
 
 4. ¿Cómo se manejan los menús desplegables en Selenium?
-    - Respuesta:
+    - Respuesta: Los menús desplegables se manejan utilizando la clase `Select` de Selenium, que permite seleccionar opciones por 
+                  `index`, `value` o `visible text`.
 
 5. ¿Cuál es la diferencia entre `findElement` y `findElements` en Selenium?
-    - Respuesta:
+    - Respuesta: `findElement` devuelve el primer elemento que coincide con el localizador, mientras que `findElements`
+                  devuelve una lista de todos los elementos que coinciden.
 
 6. ¿Cómo se manejan las alertas y ventanas emergentes en Selenium?
-    - Respuesta:
+    - Respuesta: Las alertas y ventanas emergentes se manejan utilizando la interfaz `Alert`, que permite aceptar, rechazar o recuperar 
+                     el texto de la alerta.
 
 7. ¿Qué es un WebDriverWait y cómo se utiliza?
-    - Respuesta:
+    - Respuesta: `WebDriverWait` se utiliza para aplicar esperas explícitas, permitiendo esperar hasta que una condición específica 
+                  se cumpla antes de continuar.
 
 8. ¿Cómo se toma una captura de pantalla en Selenium?
-    - Respuesta:
+    - Respuesta: Se toma una captura de pantalla utilizando el método `getScreenshotAs` de la interfaz `TakesScreenshot`.
+
 
 9. ¿Cómo se manejan múltiples ventanas en Selenium?
-    - Respuesta:
+    - Respuesta: Las múltiples ventanas se manejan utilizando los métodos `getWindowHandles` y `switchTo().window()` para cambiar
+         entre ventanas.
+
 
 10. ¿Cuáles son algunas de las mejores prácticas para escribir pruebas con Selenium?
-    - Respuesta:
+    - Respuesta: Algunas mejores prácticas incluyen: mantener el código limpio y modular, usar esperas adecuadas, y evitar
+                  dependencias de datos estáticos.
 
 ## Respuestas
 
